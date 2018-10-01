@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,400,400i,700,700i,800,800i,900,900i" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
-<div class="video-header wrap">
+<div class="video-header wrap" id="home">
   <div class="fullscreen-video-wrap">
     <video src="video/Golden.mp4" autoplay loop muted plays-inline></video>
   </div>
@@ -59,9 +59,9 @@
       About
       <span class="text-secondary">Me</span>
     </h1>
-    <h2 class="sm-heading">
+    <!-- <h2 class="sm-heading">
       Let me tell you a few things...
-    </h2>
+    </h2> -->
     <div class="about-info">
       <img src="img/me.jpg" alt="Tom Chege" class="bio-image">
 
@@ -73,28 +73,28 @@
 
       <div class="job job-1">
         <h3>123 Webshop</h3>
-        <h6>Full Stack Developer</h6>
+        <h4>Full Stack Developer</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
           expedita dolor necessitatibus deserunt nemo.</p>
       </div>
 
       <div class="job job-2">
         <h3>Designers ABC</h3>
-        <h6>Front End Developer</h6>
+        <h4>Front End Developer</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
           expedita dolor necessitatibus deserunt nemo.</p>
       </div>
 
       <div class="job job-3">
         <h3>Webworks</h3>
-        <h6>Graphic Designer</h6>
+        <h4>Graphic Designer</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
           expedita dolor necessitatibus deserunt nemo.</p>
       </div>
     </div>
   </main>
-
-  <main id="projects">
+  <div class="container swing">
+  <section id="projects" class="projects-section bg-light">
     <h1 class="lg-heading">
       My
       <span class="text-secondary">Projects</span>
@@ -110,8 +110,8 @@
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-black">Blog</h4>
-              <p class="mb-0 text-black-50">A blog website that allows users to post comments and subscribe to read new posts</p>
+              <h4 class="text-white">Blog</h4>
+              <p class="mb-0 text-white-50">A blog website that allows users to post comments and subscribe to read new posts</p>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -127,8 +127,8 @@
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-right">
-              <h4 class="text-black">Twitter Analytics API</h4>
-              <p class="mb-0 text-black-50">A project to analyse tweet sentiments based on key brands or hash tags.</p>
+              <h4 class="text-white">Twitter Analytics API</h4>
+              <p class="mb-0 text-white-50">A project to analyse tweet sentiments based on key brands or hash tags.</p>
               <hr class="d-none d-lg-block mb-0 mr-0">
             </div>
           </div>
@@ -143,8 +143,8 @@
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-black">News</h4>
-              <p class="mb-0 text-black-50">A news website that shows different articles from an API source</p>
+              <h4 class="text-white">News</h4>
+              <p class="mb-0 text-white-50">A news website that shows different articles from an API source</p>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -160,8 +160,8 @@
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-right">
-              <h4 class="text-black">Gallery</h4>
-              <p class="mb-0 text-black-50">A project showcasing a collection of photos from different locations.</p>
+              <h4 class="text-white">Gallery</h4>
+              <p class="mb-0 text-white-50">A project showcasing a collection of photos from different locations.</p>
               <hr class="d-none d-lg-block mb-0 mr-0">
             </div>
           </div>
@@ -176,8 +176,8 @@
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-black">Pitch</h4>
-              <p class="mb-0 text-black-50">A website that collects one minute pitches for different categories.</p>
+              <h4 class="text-white">Quotes</h4>
+              <p class="mb-0 text-white-50">A website that collects quotes from different users.</p>
               <hr class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -187,22 +187,24 @@
 
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-6">
-        <img class="img-fluid" src="img/twing.png" alt="">
+        <img class="img-fluid" src="img/game.png" alt="">
       </div>
       <div class="col-lg-6 order-lg-first">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-right">
-              <h4 class="text-black">Game Landing Site</h4>
-              <p class="mb-0 text-black-50">A project to create a sample game landing site.</p>
+              <h4 class="text-white">Game Landing Site</h4>
+              <p class="mb-0 text-white-50">A project to create a sample game landing site.</p>
               <hr class="d-none d-lg-block mb-0 mr-0">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </main>
-  <hr>
+
+</section>
+</div>
+
   <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container" id="contact">
@@ -214,9 +216,9 @@
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-6">
-              <div class="small text-black-50">
-                <a href="#">emdeechege@gmail.com</a>
+              <hr class="my-4">
+              <div class="small text-white-50">
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=emdeechege@gmail.com">Contact Me</a>
               </div>
             </div>
           </div>
@@ -228,7 +230,7 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+254 725 222 520</div>
+              <div class="small text-blue-50">+254 725 222 520</div>
 
             </div>
           </div>
@@ -239,7 +241,7 @@
               <i class="fas fa-map-marker-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Location</h4>
               <hr class="my-4">
-              <div class="small text-black-50">Nairobi,KE</div>
+              <div class="small text-blue-50">Nairobi,KE</div>
 
             </div>
           </div>
@@ -250,27 +252,27 @@
         <a href="#" class="mx-2">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="https://www.linkedin.com/in/tom-chege-2868862b/" class="mx-2">
+        <a href="https://www.linkedin.com/in/tom-chege-2848842b/" class="mx-2">
           <i class="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/emdeechege" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
       </div>
-
+      <!-- Footer -->
+      <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+          Copyright &copy; Tom Chege 2018
+        </div>
+      </footer>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-black-50">
-    <div class="container">
-      Copyright &copy; Tom Chege 2018
-    </div>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+945DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi4jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ44jBk0WLaUAdn489aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE4ZbWh2IMqE241rYiqJxyMiZ4OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </script>
   <script src="js/wow.js"></script>
    <script>
