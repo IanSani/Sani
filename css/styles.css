@@ -1,3 +1,6 @@
+body{
+  font-family: 'Varela Round';
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -108,6 +111,7 @@ main#home h1 {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio''job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
+  font-family: 'Varela Round';
 }
 
 .about-info {
@@ -115,6 +119,7 @@ main#home h1 {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio''job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
+  font-family: 'Varela Round';
 }
 
 .about-info .bio-image {
@@ -147,10 +152,11 @@ main#home h1 {
   border-bottom: #eece1a 5px solid;
 }
 
-.projects {
+/* .projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
+  font-family: 'Varela Round';
 }
 
 .projects img {
@@ -188,10 +194,12 @@ main#home h1 {
 
 .boxes div:hover span {
   color: #000;
-}
+} */
 
 .contact-section {
   padding: 5rem 0 0;
+  align-content: center;
+  background-color: black;
 }
 
 .contact-section .card {
@@ -214,22 +222,4 @@ main#home h1 {
 
 .contact-section .social {
   margin-top: 5rem;
-}
-
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.contact-section .social a:active {
-  color: #fff;
 }
