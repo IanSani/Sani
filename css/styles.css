@@ -1,6 +1,12 @@
 body {
   font-family: 'Varela Round';
 }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        color:white;
+    }
+}
 
 a.activePage{ color: green; border-bottom: solid; border-width: 3px;}
 .sticky {
@@ -128,18 +134,34 @@ main#home h1 {
 .about-info .bio {
   grid-area: bio;
   font-size: 1.5rem;
+
 }
 
 .about-info .job-1 {
   grid-area: job1;
+  color:white;
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  
+  letter-spacing: 0.15rem;
 }
 
 .about-info .job-2 {
   grid-area: job2;
+  color:white;
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+
+  letter-spacing: 0.15rem;
 }
 
 .about-info .job-3 {
   grid-area: job3;
+  color:white;
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+
+  letter-spacing: 0.15rem;
 }
 
 .about-info .job {
