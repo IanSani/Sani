@@ -3,8 +3,8 @@ body {
 }
 @media only screen and (max-width: 600px) {
     body {
-        background-color: black;
-        color:white;
+        background-color: #f9ece3;
+        color:black;
     }
 }
 
@@ -115,39 +115,23 @@ main#home h1 {
 }
 
 .about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio''job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr);
   font-family: 'Varela Round';
 }
 
-.about-info .bio-image {
-  grid-area: bioimage;
-  margin: auto;
+.bio-mage {
+
   border-radius: 50%;
   border: #64a19d 3px solid;
-  width:60%;
-  height:auto;
+  width:30%;
+  height:20%;
 }
 
 .about-info .bio {
-  grid-area: bio;
   font-size: 1.5rem;
 
 }
 
-.about-info .job-1 {
-  grid-area: job1;
-  color:white;
-  font-size: 0.8rem;
-  font-family: 'Varela Round';
-  
-  letter-spacing: 0.15rem;
-}
-
-.about-info .job-2 {
-  grid-area: job2;
+.job-1 {
   color:white;
   font-size: 0.8rem;
   font-family: 'Varela Round';
@@ -155,8 +139,7 @@ main#home h1 {
   letter-spacing: 0.15rem;
 }
 
-.about-info .job-3 {
-  grid-area: job3;
+.job-2 {
   color:white;
   font-size: 0.8rem;
   font-family: 'Varela Round';
@@ -164,7 +147,15 @@ main#home h1 {
   letter-spacing: 0.15rem;
 }
 
-.about-info .job {
+.job-3 {
+  color:white;
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+
+  letter-spacing: 0.15rem;
+}
+
+.job {
   background-color: #161616 !important;
   padding: 0.5rem;
   border-bottom: #64a19d 5px solid;
@@ -240,4 +231,11 @@ main#home h1 {
     border-width: .25rem;
     width: 30%;
   }
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
 }
