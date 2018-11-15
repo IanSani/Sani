@@ -1,14 +1,20 @@
 body {
   font-family: 'Varela Round';
 }
+
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: #f9ece3;
-        color:black;
-    }
+  body {
+    background-color: #f9ece3;
+    color: black;
+  }
 }
 
-a.activePage{ color: green; border-bottom: solid; border-width: 3px;}
+a.activePage {
+  color: green;
+  border-bottom: solid;
+  border-width: 3px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -118,29 +124,25 @@ main#home h1 {
   font-family: 'Varela Round';
 }
 
-.bio-mage {
-
-  border-radius: 50%;
+/* .bio-image {
   border: #64a19d 3px solid;
-  width:30%;
-  height:20%;
-}
+  width: 100%;
+  height: auto; */
+/* } */
 
 .about-info .bio {
   font-size: 10px;
-
 }
 
 .job-1 {
-  color:white;
+  color: white;
   font-size: 0.8rem;
   font-family: 'Varela Round';
-
   letter-spacing: 0.15rem;
 }
 
 .job-2 {
-  color:white;
+  color: white;
   font-size: 0.8rem;
   font-family: 'Varela Round';
   margin-bottom: 5;
@@ -149,10 +151,9 @@ main#home h1 {
 }
 
 .job-3 {
-  color:white;
+  color: white;
   font-size: 0.8rem;
   font-family: 'Varela Round';
-
   letter-spacing: 0.15rem;
 }
 
@@ -235,10 +236,10 @@ main#home h1 {
 }
 
 .center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .overlay {
@@ -259,7 +260,7 @@ main#home h1 {
 .button {
   position: absolute;
   width: 500px;
-  left:0;
+  left: 0;
   top: 120px;
   text-align: center;
   opacity: 0;
